@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(255, 248, 187);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+section {
+    display: Flex;
+}
+
+nav{
+    font size: 12px;
+}
+
+p{
+    font-size:12px;
+    font-weight:bold; font-style:italic;
+    line-height:30px;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dias{
+    font-weight: bold;
+}
+
+.lunes_a_viernes, .Lunes, .Martes, .Miércoles,.Jueves,.Viernes {
+    color: goldenrod;
+}
+
+.Sabado, .horario_sabados {
+    color:brown;
+}
+
+.Domingo, .horario_domingo {
+    color: rgb(167, 167, 167);
+}
+.horarios{
+    font-style: italic;
+    font-size: small;
+}
+
+.header_box{
+    width: ;
+    height: ;
+    border-radius: 5px ;
+}
+
+table{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-color: black;
+}
+
+th, td{
+    border: 1px solid;
+    border-color: black;
+}
