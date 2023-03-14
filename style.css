@@ -1,28 +1,34 @@
 body{
-    background-color: rgb(255, 248, 187);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
 
 }
 
-section {
-    display: Flex;
+/* Página principal */
+
+header {
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    }
+
+nav {
+    background-color: white;
+    display: flex;
+    font-size: small;
 }
 
-nav{
-    font size: 12px;
+a {
+    padding-right: 20px;
+    text-decoration: none;
 }
 
-p{
-    font-size:12px;
-    font-weight:bold; font-style:italic;
-    line-height:30px;
+.link_ilustracion, .link_textil, .link_figuras {
+    color:blue;
 }
 
-h1{
-    font-family:'Courier New', Courier, monospace;
-}
-
+/* Tabla de Horarios */
 .dias{
     font-weight: bold;
 }
