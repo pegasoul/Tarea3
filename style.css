@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(187, 187, 187);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
 
@@ -9,8 +9,8 @@ body{
 
 header {
     background-color: white;
-    height: fit-content;
-    width: fit-content;
+    height: 180px;
+    width: 100%;
     }
 
 nav {
@@ -24,11 +24,21 @@ a {
     text-decoration: none;
 }
 
+.img_principal {
+    padding: 1em;
+    width: 100%;
+}
+
 .link_ilustracion, .link_textil, .link_figuras {
     color:blue;
 }
 
 /* Tabla de Horarios */
+
+.tabla_de_horarios {
+    background-color: white;
+    padding: 1em;
+}
 .dias{
     font-weight: bold;
 }
@@ -66,4 +76,48 @@ table{
 th, td{
     border: 1px solid;
     border-color: black;
+}
+
+/*Bio*/
+
+.kero_conlentes {
+    padding: 10px;
+}
+
+.bio {
+    background-color: white;
+    height: 350px;
+}
+
+/* Contacto */
+
+.formulario {
+    padding: 2em;
+    background-color: white;
+    height: 220px;
+}
+
+form{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(161, 161, 161);
+}
+/*Trabajos*/
+
+.Trabajos_pages {
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+.trabajos_trabajos {
+    padding: 1em;
+}
+
+/*Footer*/
+
+footer {
+    background-color: white;
+    width: 100%;
+    height: 18px;
 }
